@@ -23,12 +23,11 @@ Lambdas can also be used as parsing functions into other functions such as this 
 
 One thing missing from the lambda expression syntax presented above is the ability to specify the return type of the function. In most cases, this is unnecessary because the return type can be inferred automatically. However, if you do need to specify it explicitly, you can use an alternative syntax: an anonymous function.
 
-    fun(x: Int, y: Int): Int = x + y
+    
 
     //it: implicit name of a single parameter
     ints.map { it * 2 }
 
-    val sum = { x: Int, y: Int -> x + y }
 
 LINQ-style code:
 
